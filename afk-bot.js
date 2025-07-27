@@ -4,7 +4,7 @@ function startBot() {
   const bot = mineflayer.createBot({
     host: process.env.HOST || 'REIGNOFKINGS4.aternos.me',  // replace with your Aternos host
     port: parseInt(process.env.PORT) || 55997,             // replace with your Aternos port
-    username: process.env.USERNAME || 'AFK_Bot_' + Math.floor(Math.random() * 1000)
+    username: process.env.USERNAME || 'Staff' + Math.floor(Math.random() * 1000)
   });
 
   bot.on('spawn', () => {
